@@ -1,10 +1,10 @@
-f357392b775b0a44e6a1dcaaf019a602 *DESCRIPTION
+4cb970c5d804e455a18775ed2afdbfdb *DESCRIPTION
 0df2e0bed66f66903f461ad93e763ef4 *NAMESPACE
-3b18e96c6b2a184b854f8ed991bb0988 *NEWS.md
+fdc0546711ef0f8c440faa311d732c78 *NEWS.md
 fcdf13180407d2fdf40bd661731c2c17 *R/aaa-tools.R
 a5c98284e15f1f7a133cc64e7c0bd748 *R/enc-package.R
 d4bdea2c1927ce65b6c85fd83ac9f02d *R/encoding.R
-edef80c5f6f853b692064647d7ff5c98 *R/io.R
+9fbf62e8b0cd5400c271df483d37547b *R/io.R
 fd1daee5046fdf27da2a6881e94e1fba *R/sep.R
 379627e14be0608428f62a27f9cb35fd *R/to-encoding.R
 11e6fa2f98636b57d391d3416741057b *R/utf8.R
@@ -14,11 +14,11 @@ d9f32a0ed716fc63539387a46a38385b *README.md
 63152f6e97561c0390191920b6893dcb *man/enc-package.Rd
 834c35feab9b600e8c3343c279d2b3b4 *man/encoding.Rd
 29b2d5d68e8118afa54fc1d8c2485819 *man/native_eol.Rd
-9522618e3cb0050eae52875b1aafecaa *man/read_lines_enc.Rd
+1d74680665d9553aaf0ef0f9afcbaece *man/read_lines_enc.Rd
 70b769fb8d4ded2c33d4354ca1081daa *man/to_encoding.Rd
-11bce92129732284a005ceb1120ee243 *man/transform_lines_enc.Rd
-0845508e66a1d3cdfa2642f8dced86e6 *man/utf8.Rd
-ae956fde5672c9a63b36fc6a42ebd07a *man/write_lines_enc.Rd
+038506d9981bf64b5d7a436170a5c901 *man/transform_lines_enc.Rd
+440e6edf737d61fabe29a7091582a458 *man/utf8.Rd
+25422a981d106949a7af5d512355de96 *man/write_lines_enc.Rd
 c693263563bfb566f584f155fee590cc *src/encoding.c
 9aef1682fa23a539f4571939ff5f54fc *src/encoding.h
 b26b5315b8336cf4fbcfb1ee4f8dc049 *src/init.c
@@ -51,6 +51,6 @@ fd4eba6af26d018e5cd4920268212388 *tests/testthat/test-encoding.R
 ff329d4733942450634054e6e80de442 *tests/testthat/test-to-latin1.R
 302c8d97ac30a34fef949345891e534c *tests/testthat/test-to-native.R
 b652dbe6bebfa1c63b58da03ce36185f *tests/testthat/test-to-utf8.R
-fa30355180ac956713af40a182d607b5 *tests/testthat/test-transform-lines.R
+4e61c74cf5ecda1f10f420168e147a94 *tests/testthat/test-transform-lines.R
 7ff1348b62c1394f65994b27c3eca066 *tests/testthat/test-update.R
 8cbe9d91ddb43e88774713704659d708 *tests/testthat/test-write-lines.R

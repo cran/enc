@@ -1,3 +1,8 @@
+# enc 0.2.0
+
+- Fix transformation of non-ASCII text on Windows (#18, @yutannihilation).
+
+
 ## enc 0.1 (2017-11-12)
 
 Initial release.
