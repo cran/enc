@@ -1,7 +1,7 @@
 Package: enc
 Title: Portable Tools for 'UTF-8' Character Data
-Date: 2018-02-24
-Version: 0.2.0
+Date: 2019-06-24
+Version: 0.2.1
 Authors@R: person("Kirill", "Müller", role = c("aut", "cre"), email = "krlmlr+r@mailbox.org")
 Description: 
     Implements an S3 class for storing 'UTF-8' strings, based on regular character vectors.
@@ -16,10 +16,10 @@ Encoding: UTF-8
 LazyData: true
 BugReports: https://github.com/krlmlr/enc/issues
 URL: https://github.com/krlmlr/enc
-RoxygenNote: 6.0.1.9000
+RoxygenNote: 6.1.1
 NeedsCompilation: yes
-Packaged: 2018-03-03 00:03:50 UTC; muelleki
+Packaged: 2019-06-24 08:48:43 UTC; kirill
 Author: Kirill Müller [aut, cre]
 Maintainer: Kirill Müller <krlmlr+r@mailbox.org>
 Repository: CRAN
-Date/Publication: 2018-03-03 14:03:13 UTC
+Date/Publication: 2019-06-24 09:10:11 UTC

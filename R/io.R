@@ -50,11 +50,12 @@ try_read_lines_enc <- function(path, file_encoding = "UTF-8", n = -1L, ok = TRUE
 #' @inheritParams read_lines_enc
 #' @export
 write_lines_enc <- function(text, path, file_encoding = "UTF-8", sep = "\n") {
-  raw_data <- get_raw_file_data(as.character(text), file_encoding, sep)
+  raw_data <- get_raw_file_data(to_utf8(as.character(text)), file_encoding, sep)
   writeBin(raw_data, path)
 }
 
 get_raw_file_data <- function(text, file_encoding = "UTF-8", sep = "\n") {
+  text <- as.character(text)
   if (length(text) == 0) return(raw())
   text_enc <- iconv(text, from = "UTF-8", to = file_encoding, toRaw = TRUE)
   sep_enc <- rep(list(charToRaw(sep[[1L]])), length(text_enc))
