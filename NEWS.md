@@ -1,3 +1,8 @@
+# enc 0.2.2
+
+- Remove clever code that breaks enc on R-devel.
+
+
 # enc 0.2.1
 
 - Use `LEVELS` macro instead of low-level access of opaque structure (#23).
